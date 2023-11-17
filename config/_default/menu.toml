@@ -10,7 +10,7 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/RickyHsieh"
 
 [social.params]
 icon = "brand-github"
@@ -19,6 +19,17 @@ icon = "brand-github"
 identifier = "twitter"
 name = "Twitter"
 url = "https://twitter.com"
+
+[[social]]
+identifier = "instagram"
+name = "Instagram"
+url = "https://www.instagram.com/takingbackmonday_loish/"
+
+[[social]]
+identifier = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/hsieh-ricky-46829926a/"
+
 
 [social.params]
 icon = "brand-twitter"
