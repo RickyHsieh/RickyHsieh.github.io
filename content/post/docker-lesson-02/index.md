@@ -1,7 +1,6 @@
 ---
 title: Docker學習筆記-docker如何執行容器?
 description: 了解docker如何執行容器
-slug: hello-world
 date: 2023-11-19 18:49:00+0000
 image:
 categories:

@@ -1,7 +1,6 @@
 ---
 title: HackerRank - Java Static Initializer Block
 description:
-slug:
 date: 2022-03-06 00:00:00+0000
 image:
 categories:
