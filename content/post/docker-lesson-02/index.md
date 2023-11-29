@@ -3,12 +3,9 @@ title: Docker學習筆記-docker如何執行容器?
 description: 了解docker如何執行容器
 slug: hello-world
 date: 2023-11-19 18:49:00+0000
-image: cover.jpg
+image:
 categories:
     - Docker
-tags:
-    - Example Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 ## Docker 如何執行容器
