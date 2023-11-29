@@ -1,7 +1,7 @@
 ---
 title: FileSystem Snapshot
 date: 2023-11-29
-description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+description:
 categories:
     - os
 ---
