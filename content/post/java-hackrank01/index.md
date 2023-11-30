@@ -3,7 +3,7 @@ title: HackerRank - Java Lexicographical Comparison
 description:
 slug:
 date: 2023-11-28 00:00:00+0000
-image:
+image: hk-cover2.jpg
 categories:
     - HackerRank
 tags:
