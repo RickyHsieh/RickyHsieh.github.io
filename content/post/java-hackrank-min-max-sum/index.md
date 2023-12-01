@@ -65,12 +65,12 @@ The minimum sum is 1+3+5+7=16 and the maximum sum is 3+5+7+9=24 . The function p
   逐一排除元素後的總和 : sumWithoutValue
     - 如果 sumWithoutValue 大於 max，max 為 sumWithoutValue
     - 如果 sumWithoutValue 小於 min，min 為 sumWithoutValue
-
+測試
 
 ## 修正後
 
 * 考量溢出問題用 Long
-* 以及負數
+* 負數問題
 
 ```java
 import java.io.*;
