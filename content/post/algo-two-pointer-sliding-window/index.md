@@ -147,3 +147,75 @@ nums[i++] = n;
 nums[i] = n;
 i++;
 ```
+
+### 977. Squares of a Sorted Array
+
+Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+
+給一個數組，平方，其中會有負數。
+
+解法一: 暴力法，先平方在比大小
+解法二: two pointer，先絕對值比大小在平方和塞到新數組
+
+#### 解法一
+
+```java
+class Solution {
+    public int[] sortedSquares(int[] nums) {
+        
+       for (int i = 0; i < nums.length; i++) {
+            int positive = Math.abs(nums[i]);
+            nums[i] = (int) Math.pow(positive, 2);
+        }
+        Arrays.sort(nums);
+        return nums;
+    }
+}
+```
+* 平方操作：遍歷整個數組並對每個元素進行平方，其時間複雜度為O(n)，
+ 其中 n 是數組 nums 的長度。
+
+* 排序操作：使用 Arrays.sort() 對數組進行排序，其平均時間複雜度為O(nlogn)。
+ 綜合來看，解法一的總時間複雜度O(nlogn)，因為排序操作占主導。
+
+* 空間複雜度
+ 這種方法直接在輸入數組 nums 上操作，並沒有使用額外的顯著空間（除了幾個基本變量外）。因此，其空間複雜度為O(1)。
+
+#### 解法二
+```java
+class Solution {
+    public int[] sortedSquares(int[] nums) {
+        
+       int n = nums.length;
+       int[] result = new int[n];
+       int left = 0, right = n - 1;
+
+        for (int i = n - 1; i >= 0; i--) {
+
+            if (Math.abs(nums[left]) > Math.abs(nums[right])) {
+                result[i] = (int)Math.pow(nums[left],2);
+                left++;
+            } else {
+                result[i] = (int)Math.pow(nums[right],2);
+                right--;
+            }
+
+        }
+        return result;
+
+    }
+}
+```
+* 時間複雜度
+
+雙指針操作：通過一次遍歷來填充結果數組 result。每個元素僅被訪問一次，因此時間複雜度為O(n)。
+這種方法利用了原始數組的已排序特性，避免了額外的排序操作，因此總時間複雜度為O(n)。
+
+* 空間複雜度
+這種方法使用了一個額外的數組 result 來存儲結果，這個數組與輸入數組 nums 大小相同。因此，其空間複雜度為 O(n)。
+
+* 結論
+解法一的時間複雜度為 O(nlogn)，空間複雜度為O(1)。
+解法二的時間複雜度為 O(n)，空間複雜度為O(n)。
+因此，如果空間不是一個主要考慮因素，解法二在效率上更佳，尤其是在數組較大時。
+
