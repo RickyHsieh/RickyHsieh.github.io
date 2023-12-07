@@ -1,7 +1,7 @@
 ---
 title: Daily Leetcode - 1716. Calculate Money in Leetcode Bank
-description: 2023 Dec LC challenge Day Six
-date: 2023-11-27 00:00:00+0000
+description: 2023 Dec LC challenge Day 6
+date: 2023-12-07 00:00:00+0000
 categories:
     - LeetCode
 ---
