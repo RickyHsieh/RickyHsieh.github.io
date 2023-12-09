@@ -15,6 +15,7 @@ categories:
 * Pop(): Removes and returns the top element of the stack.
 * Peek(): Returns the top element of the stack without removing it from the stack.
 * isEmpty(): Check whether the stack is empty.
+* push 和 pop 都發生在頂端
 
 ### 20. Valid Parentheses
 
