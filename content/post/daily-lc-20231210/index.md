@@ -1,12 +1,14 @@
 ---
 title: Daily Leetcode 867. Transpose Matrix
 description: Easy 轉置矩陣
-date: 2023-12-09 00:00:00+0000
+date: 2023-12-10 12:00:00+0000
 categories:
     - LeetCode
 ---
 
 ##  2023 Dec LC challenge
+
+今天在上大提琴課前坐在711刷，好險今天題目EZ。
 
 ### 題目
 
