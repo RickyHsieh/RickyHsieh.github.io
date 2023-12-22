@@ -1,6 +1,6 @@
 ---
 title: Daily Leetcode - 82. Remove Duplicates from Sorted List II
-description: Medium 刪除 node (所有有重複的)
+description: Medium linkedList 刷爆周 刪除 node (所有有重複的)
 date: 2023-12-22 13:00:00+0000
 categories:
     - LeetCode
