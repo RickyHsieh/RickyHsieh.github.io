@@ -3,8 +3,7 @@ title: Angular crash Introduction
 description: An
 date: 2023-12-22 13:00:00+0000
 categories:
-    - LeetCode
-    - Array
+    - Angular
 ---
 
 ##  Angular 簡介
