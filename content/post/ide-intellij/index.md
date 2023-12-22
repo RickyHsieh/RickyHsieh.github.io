@@ -1,9 +1,9 @@
 ---
 title: Intellij - 外掛程式、好用的tip
-description: Medium Stack
+description: Intellij
 date: 2023-12-18 12:00:00+0000
 categories:
-    - LeetCode
+    - Intellij
 ---
 
 ##  2023 Dec LC challenge
