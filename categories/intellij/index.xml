@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intellij on Ricky's</title><link>https://rickyhsieh.github.io/categories/intellij/</link><description>Recent content in Intellij on Ricky's</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 12:00:00 +0000</lastBuildDate><atom:link href="https://rickyhsieh.github.io/categories/intellij/index.xml" rel="self" type="application/rss+xml"/><item><title>Intellij - 外掛程式、好用的tip</title><link>https://rickyhsieh.github.io/p/intellij-%E5%A4%96%E6%8E%9B%E7%A8%8B%E5%BC%8F%E5%A5%BD%E7%94%A8%E7%9A%84tip/</link><pubDate>Mon, 18 Dec 2023 12:00:00 +0000</pubDate><guid>https://rickyhsieh.github.io/p/intellij-%E5%A4%96%E6%8E%9B%E7%A8%8B%E5%BC%8F%E5%A5%BD%E7%94%A8%E7%9A%84tip/</guid><description>&lt;h2 id="2023-dec-lc-challenge">2023 Dec LC challenge&lt;/h2>
+&lt;h3 id="外掛-edit-starters">外掛 Edit Starters&lt;/h3>
+&lt;ul>
+&lt;li>如果要裝 Lombok 的話，可以到 pom 去 right click &amp;gt; [ generate ] &amp;gt; [edit starter] &amp;gt; 出現spring initializr Url (保持預設)按ok &amp;gt; 在Edit Starter中按developer tool &amp;gt; 點擊 lombok&lt;/li>
+&lt;/ul>
+&lt;h3 id="my-code">My Code&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

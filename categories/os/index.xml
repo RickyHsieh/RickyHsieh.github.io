@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>os on Ricky's</title><link>https://rickyhsieh.github.io/categories/os/</link><description>Recent content in os on Ricky's</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rickyhsieh.github.io/categories/os/index.xml" rel="self" type="application/rss+xml"/><item><title>FileSystem Snapshot</title><link>https://rickyhsieh.github.io/p/filesystem-snapshot/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate><guid>https://rickyhsieh.github.io/p/filesystem-snapshot/</guid><description>&lt;h3 id="what-is-filesystem-snapshot">What is Filesystem Snapshot&lt;/h3>
+&lt;p>文件系統快照（FileSystem Snapshot）是在特定時刻對文件系統狀態進行的完整記錄，類似於對文件系統進行的一次“照相”，捕捉那一刻文件和目錄的準確狀態。這項功能在需要資料保護和備份的計算環境中非常有用。&lt;/p>
+&lt;p>文件系統快照的關鍵特點包括：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>資料保護&lt;/strong>：快照可以在不中斷服務的情況下創建，提供了一種快速回到某個時間點狀態的方法，這對於資料保護策略極其重要。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>恢復點&lt;/strong>：在發生資料遺失或損毀時，快照能夠用來迅速回滾到之前的狀態。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>效率&lt;/strong>：與傳統的備份相比，快照通常更高效，因為它們僅記錄從上一次快照後發生的改變。這種方法通常被稱為增量備份或差異備份。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>即時創建&lt;/strong>：大多數現代的文件系統和儲存方案都能在不到一秒鐘的時間內創建快照。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>節省空間&lt;/strong>：一開始的快照通常不會占用太多空間，因為它們使用原有數據的引用，隻有當數據發生變更時，才會實際佔用更多空間。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>易於管理&lt;/strong>：在許多儲存系統中，快照的創建和管理都非常簡單，無需複雜的配置。&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>不同的操作系統和儲存技術有不同的文件系統快照實現方式。例如，ZFS和Btrfs等文件系統內建了快照功能。企業級儲存系統如SAN（儲存區域網絡）或NAS（網絡附加儲存）裝置通常將快照作為標準配置。在雲計算環境中，如AWS或Azure，快照也是資料保護和管理的基礎服務之一。&lt;/p></description></item></channel></rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on Ricky's</title><link>https://rickyhsieh.github.io/categories/angular/</link><description>Recent content in Angular on Ricky's</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 22 Dec 2023 13:00:00 +0000</lastBuildDate><atom:link href="https://rickyhsieh.github.io/categories/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular crash Introduction</title><link>https://rickyhsieh.github.io/p/angular-crash-introduction/</link><pubDate>Fri, 22 Dec 2023 13:00:00 +0000</pubDate><guid>https://rickyhsieh.github.io/p/angular-crash-introduction/</guid><description>&lt;h2 id="angular-簡介">Angular 簡介&lt;/h2>
+&lt;p>Angular is a framework for building modern single-page applications.&lt;/p>
+&lt;h2 id="關於-typescript">關於 TypeScript&lt;/h2>
+&lt;p>TypeScript 是一種由微軟開發的開源程式語言。
+它是JavaScript的一個超集，增加了可選的靜態類型和基於類別的物件導向程式設計。&lt;/p>
+&lt;h5 id="以下是typescript的一些主要特點">以下是TypeScript的一些主要特點：&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;p>靜態型別檢查：
+與JavaScript不同的是，TypeScript在程式碼編寫階段就能檢查型別錯誤。 這意味著開發者可以在程式碼運行之前發現並修正錯誤，這有助於提高程式碼品質和可維護性。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>類型推斷：
+TypeScript能夠自動推斷變數的類型，減少了顯示類型宣告的需要。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>支援最新的JavaScript特性：
+TypeScript支援ECMAScript標準的最新特性，例如箭頭函數、非同步/等待等，並將它們編譯成舊版本的JavaScript，以確保相容性。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>豐富的IDE支援：
+由於具有類型訊息，TypeScript在整合開發環境（IDE）中能提供更好的自動完成、導航和重構功能。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>類別、介面和模組：
+TypeScript支援基於類別的物件導向編程，包括類別、介面和模組等概念，這使得建立大型應用程式更為方便。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>跨瀏覽器、跨裝置、跨平台：TypeScript最終被編譯為JavaScript，因此可以在任何支援JavaScript的瀏覽器、裝置或平台上執行。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>社群支持與生態系統：TypeScript由於微軟的支持和廣泛的社群參與，具有豐富的生態系統，包括大量的函式庫和工具。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>TypeScript特別適合用於開發大型或複雜的JavaScript應用程序，它提供了強大的工具和實踐來管理大型程式碼庫和團隊。&lt;/p>
+&lt;h2 id="compile-the-code">compile the code&lt;/h2>
+&lt;p>web browsers do not understand Typescript natively, have to convert to JS code.&lt;/p>
+&lt;p>This is known as &amp;ldquo;transpiling&amp;rdquo;.&lt;/p>
+&lt;p>trsnspiling : translating / compiling.&lt;/p>
+&lt;p>&amp;ldquo;Transpiling&amp;rdquo;（或稱為&amp;quot;原始碼到原始碼編譯&amp;quot;）是一個程式設計術語，指的是將一種程式語言的原始程式碼轉換為另一種語言的等效程式碼。 這個過程不同於傳統的編譯，因為它通常涉及兩種高階語言之間的轉換，而不是將高階語言轉換為低階語言（如組合語言或機器碼）。&lt;/p>
+&lt;p>在TypeScript的上下文中，transpiling是一個非常重要的概念。 TypeScript是JavaScript的一個超集，這意味著任何有效的JavaScript程式碼也是有效的TypeScript程式碼。 但是，TypeScript增加了一些不屬於JavaScript的特性，例如靜態類型檢查和更豐富的物件導向程式設計模型。 這些特性在執行時期的JavaScript環境中並不存在。&lt;/p>
+&lt;p>mydemo.ts ==== tsc ====&amp;gt; mydemo.js&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
